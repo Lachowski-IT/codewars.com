@@ -1,4 +1,10 @@
-package CodeWars_7kyu;/*
+package CodeWars_7kyu;
+
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
+
+/*
 7 kyu - My Languages
 
 Your task
@@ -10,12 +16,7 @@ Examples
 {"Java" => 10, "Ruby" => 80, "Python" => 65}   -->  ["Ruby", "Python"]
 {"Hindi" => 60, "Dutch" => 93, "Greek" => 71}  -->  ["Dutch", "Greek", "Hindi"]
 {"C++" => 50, "ASM" => 10, "Haskell" => 20}    -->  []
-
  */
-
-import java.util.List;
-import java.util.Map;
-import java.util.stream.Collectors;
 
 public class MyLanguages {
     public static List<String> myLanguages(final Map<String, Integer> results) {
